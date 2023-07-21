@@ -1,0 +1,63 @@
+.list-shorcuts[_ngcontent-c27] .list-shortcut-item[_ngcontent-c27] {
+    cursor: pointer;
+    height: 88px;
+    width: 88px;
+    display: inline-block;
+    background-color: #fff;
+    vertical-align: middle;
+    margin: 2.5px 3px;
+    color: #191919;
+    padding: 5px;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 4px 10px rgba(153,153,153,.5);
+    box-shadow: 0 4px 10px rgba(153,153,153,.5);
+    border-radius: 5px;
+}
+
+.list-shorcuts[_ngcontent-c27] .list-shortcut-item[_ngcontent-c27] .icon-container[_ngcontent-c27] {
+    height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.list-shorcuts[_ngcontent-c27] {
+    list-style: none;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+.shorcuts-container[_ngcontent-c27] {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+*[_ngcontent-c8] {
+    font-family: SantanderText;
+}

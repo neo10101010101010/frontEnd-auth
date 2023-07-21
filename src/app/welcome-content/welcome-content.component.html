@@ -1,0 +1,42 @@
+<body>
+        
+
+
+<div class="page-preview">
+    
+    <div class="page-preview-body">
+        <ul>
+            <li>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CC2r4WkZaog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2FoesrcYt8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </li>
+            <li>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/gpWyF15HTN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZEAJL97TVw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </li>
+        </ul>
+    </div>
+</div>
+<a style="position:absolute;top:17px;left:10px;" ></a>
+
+        <script>
+            if (window.parent) {
+                var _w = 0, _h = 0;
+                var updateFormSize = function () {
+                    var form = $('form.shaped-form-extended,form.shaped-form');
+                    var w = form.outerWidth(true);
+                    var h = form.outerHeight(true);
+                    if (Math.abs(_w - w) > 5 || Math.abs(_h - h) > 5) {
+                        _w = w;
+                        _h = h;
+                        var msg = { key: 'login-frame-size', width: w, height: h };
+                        window.parent.postMessage(msg, "*");
+                    }
+                    setTimeout(updateFormSize, 300);
+                }
+                updateFormSize();
+            }
+        </script>
+    
+
+    </body>
